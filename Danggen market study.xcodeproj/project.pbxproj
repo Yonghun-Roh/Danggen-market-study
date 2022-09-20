@@ -30,6 +30,7 @@
 		93B9C53B28D965B300D58E37 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 93B9C53A28D965B300D58E37 /* FirebaseAuth */; };
 		93B9C53D28D965B300D58E37 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 93B9C53C28D965B300D58E37 /* FirebaseMessaging */; };
 		93B9C53F28D965B300D58E37 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 93B9C53E28D965B300D58E37 /* FirebaseStorage */; };
+		93F5404828D9DEA500DAFBD5 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F5404728D9DEA500DAFBD5 /* MyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		93B21FF828D4703000B8EDC3 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		93B21FFA28D4706000B8EDC3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93F5404728D9DEA500DAFBD5 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				934946CE28D1D40F007E0CC4 /* SceneDelegate.swift */,
 				934946D028D1D40F007E0CC4 /* ViewController.swift */,
 				934946D228D1D40F007E0CC4 /* Main.storyboard */,
+				93F5404728D9DEA500DAFBD5 /* MyTableViewCell.xib */,
 				934946F128D2E9B3007E0CC4 /* MyDanggen.swift */,
 				93B21FF828D4703000B8EDC3 /* Main.swift */,
 				93B21FFA28D4706000B8EDC3 /* Login.swift */,
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				934946D928D1D411007E0CC4 /* LaunchScreen.storyboard in Resources */,
+				93F5404828D9DEA500DAFBD5 /* MyTableViewCell.xib in Resources */,
 				934946E328D1D95A007E0CC4 /* 당근마켓 아이콘.png in Resources */,
 				93B21FFD28D47AA800B8EDC3 /* GoogleService-Info.plist in Resources */,
 				934946D628D1D411007E0CC4 /* Assets.xcassets in Resources */,

@@ -21,6 +21,7 @@
 		934946EE28D2E8B3007E0CC4 /* Myaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946ED28D2E8B3007E0CC4 /* Myaround.swift */; };
 		934946F028D2E923007E0CC4 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946EF28D2E923007E0CC4 /* Chat.swift */; };
 		934946F228D2E9B3007E0CC4 /* MyDanggen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946F128D2E9B3007E0CC4 /* MyDanggen.swift */; };
+		9360C25728DC226A00336507 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360C25628DC226A00336507 /* CustomTableViewCell.swift */; };
 		93B21FF928D4703000B8EDC3 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B21FF828D4703000B8EDC3 /* Main.swift */; };
 		93B21FFB28D4706000B8EDC3 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B21FFA28D4706000B8EDC3 /* Login.swift */; };
 		93B21FFD28D47AA800B8EDC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */; };
@@ -30,7 +31,7 @@
 		93B9C53B28D965B300D58E37 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 93B9C53A28D965B300D58E37 /* FirebaseAuth */; };
 		93B9C53D28D965B300D58E37 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 93B9C53C28D965B300D58E37 /* FirebaseMessaging */; };
 		93B9C53F28D965B300D58E37 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 93B9C53E28D965B300D58E37 /* FirebaseStorage */; };
-		93F5404828D9DEA500DAFBD5 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F5404728D9DEA500DAFBD5 /* MyTableViewCell.xib */; };
+		93F56CE728DBF17300938C09 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F56CE628DBF17300938C09 /* Table.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,10 +48,11 @@
 		934946ED28D2E8B3007E0CC4 /* Myaround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myaround.swift; sourceTree = "<group>"; };
 		934946EF28D2E923007E0CC4 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		934946F128D2E9B3007E0CC4 /* MyDanggen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDanggen.swift; sourceTree = "<group>"; };
+		9360C25628DC226A00336507 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		93B21FF828D4703000B8EDC3 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		93B21FFA28D4706000B8EDC3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		93F5404728D9DEA500DAFBD5 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		93F56CE628DBF17300938C09 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +96,9 @@
 			children = (
 				934946CC28D1D40F007E0CC4 /* AppDelegate.swift */,
 				934946CE28D1D40F007E0CC4 /* SceneDelegate.swift */,
+				93F56CE628DBF17300938C09 /* Table.swift */,
 				934946D028D1D40F007E0CC4 /* ViewController.swift */,
 				934946D228D1D40F007E0CC4 /* Main.storyboard */,
-				93F5404728D9DEA500DAFBD5 /* MyTableViewCell.xib */,
 				934946F128D2E9B3007E0CC4 /* MyDanggen.swift */,
 				93B21FF828D4703000B8EDC3 /* Main.swift */,
 				93B21FFA28D4706000B8EDC3 /* Login.swift */,
@@ -108,6 +110,7 @@
 				934946D728D1D411007E0CC4 /* LaunchScreen.storyboard */,
 				934946DA28D1D411007E0CC4 /* Info.plist */,
 				93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */,
+				9360C25628DC226A00336507 /* CustomTableViewCell.swift */,
 			);
 			path = "Danggen market study";
 			sourceTree = "<group>";
@@ -187,7 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				934946D928D1D411007E0CC4 /* LaunchScreen.storyboard in Resources */,
-				93F5404828D9DEA500DAFBD5 /* MyTableViewCell.xib in Resources */,
 				934946E328D1D95A007E0CC4 /* 당근마켓 아이콘.png in Resources */,
 				93B21FFD28D47AA800B8EDC3 /* GoogleService-Info.plist in Resources */,
 				934946D628D1D411007E0CC4 /* Assets.xcassets in Resources */,
@@ -204,10 +206,12 @@
 			files = (
 				934946D128D1D40F007E0CC4 /* ViewController.swift in Sources */,
 				934946F028D2E923007E0CC4 /* Chat.swift in Sources */,
+				9360C25728DC226A00336507 /* CustomTableViewCell.swift in Sources */,
 				93B21FF928D4703000B8EDC3 /* Main.swift in Sources */,
 				934946CD28D1D40F007E0CC4 /* AppDelegate.swift in Sources */,
 				934946EE28D2E8B3007E0CC4 /* Myaround.swift in Sources */,
 				934946EC28D2E76C007E0CC4 /* Dongne.swift in Sources */,
+				93F56CE728DBF17300938C09 /* Table.swift in Sources */,
 				93B21FFB28D4706000B8EDC3 /* Login.swift in Sources */,
 				934946CF28D1D40F007E0CC4 /* SceneDelegate.swift in Sources */,
 				934946F228D2E9B3007E0CC4 /* MyDanggen.swift in Sources */,

@@ -7,38 +7,56 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    
+    
+    
+    
+    @IBOutlet weak var table: UITableView!
+    
+    struct Sunset {
+        let title: String
+        let imageName: String
+        
+    }
+    
+    let data: [Sunset] = [
+    Sunset(title: "Morining Run", imageName: "sunset1"),
+    Sunset(title: "Evening Sunset", imageName: "sunset2"),
+    Sunset(title: "Vacation Photos", imageName: "sunset3"),
+    Sunset(title: "Visiting Frieends", imageName: "sunset4"),
+    Sunset(title: "Som Other Title", imageName: "sunset5")
+    
+    ]
+    
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        table.dataSource = self
+        table.delegate = self
     }
-    @IBAction func moveByNotice(_ sender: Any) {
+   
         
-        guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "SearchVC") else {
-            return
-        }
-        self.navigationController?.pushViewController(uvc, animated: true)
-    }
     
-    @IBAction func moveByMenu(_ sender: Any) {
-        
-        guard let uvc1 = self.storyboard?.instantiateViewController(withIdentifier: "MenuVC") else {
-            return
-        }
-        self.navigationController?.pushViewController(uvc1, animated: true)
-    }
+
+func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return data.count
+}
+
+func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     
-    @IBAction func moveBySearch(_ sender: Any) {
-        guard let uvc2 = self.storyboard?.instantiateViewController(withIdentifier: "NoticeVC") else {
-            return
-        }
-        self.navigationController?.pushViewController(uvc2, animated: true)
+    let sunset = data[indexPath.row]
+    let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
+    cell.label.text = sunset.title
+    cell.iconImageView.image = UIImage(named: sunset.imageName)
+    return cell
+}
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 140
         
     }
-    
-    
-    
-    
 }
 

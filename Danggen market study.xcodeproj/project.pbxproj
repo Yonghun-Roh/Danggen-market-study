@@ -22,6 +22,7 @@
 		934946F028D2E923007E0CC4 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946EF28D2E923007E0CC4 /* Chat.swift */; };
 		934946F228D2E9B3007E0CC4 /* MyDanggen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946F128D2E9B3007E0CC4 /* MyDanggen.swift */; };
 		9360C25728DC226A00336507 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360C25628DC226A00336507 /* CustomTableViewCell.swift */; };
+		9360C25928DC536200336507 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360C25828DC536200336507 /* Search.swift */; };
 		93B21FF928D4703000B8EDC3 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B21FF828D4703000B8EDC3 /* Main.swift */; };
 		93B21FFB28D4706000B8EDC3 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B21FFA28D4706000B8EDC3 /* Login.swift */; };
 		93B21FFD28D47AA800B8EDC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */; };
@@ -49,6 +50,7 @@
 		934946EF28D2E923007E0CC4 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		934946F128D2E9B3007E0CC4 /* MyDanggen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDanggen.swift; sourceTree = "<group>"; };
 		9360C25628DC226A00336507 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9360C25828DC536200336507 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		93B21FF828D4703000B8EDC3 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		93B21FFA28D4706000B8EDC3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				934946F128D2E9B3007E0CC4 /* MyDanggen.swift */,
 				93B21FF828D4703000B8EDC3 /* Main.swift */,
 				93B21FFA28D4706000B8EDC3 /* Login.swift */,
+				9360C25828DC536200336507 /* Search.swift */,
 				934946EF28D2E923007E0CC4 /* Chat.swift */,
 				934946ED28D2E8B3007E0CC4 /* Myaround.swift */,
 				934946EB28D2E76C007E0CC4 /* Dongne.swift */,
@@ -213,6 +216,7 @@
 				934946EC28D2E76C007E0CC4 /* Dongne.swift in Sources */,
 				93F56CE728DBF17300938C09 /* Table.swift in Sources */,
 				93B21FFB28D4706000B8EDC3 /* Login.swift in Sources */,
+				9360C25928DC536200336507 /* Search.swift in Sources */,
 				934946CF28D1D40F007E0CC4 /* SceneDelegate.swift in Sources */,
 				934946F228D2E9B3007E0CC4 /* MyDanggen.swift in Sources */,
 			);

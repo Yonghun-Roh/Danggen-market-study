@@ -14,7 +14,7 @@
             <objects>
                 <viewController storyboardIdentifier="SearchVC" id="XEz-ai-tWN" customClass="SearchViewController" customModule="Danggen_market_study" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yK8-bM-VRk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="검색창" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeB-CA-hQG">
@@ -32,14 +32,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GfN-Kf-V5H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-355.07246376811599" y="1291.7410714285713"/>
+            <point key="canvasLocation" x="-257" y="1381"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WjE-XA-T1Q">
             <objects>
                 <viewController storyboardIdentifier="MenuVC" id="nGw-BA-PQs" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UtN-jV-XY3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="메뉴창" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glq-f2-ZjB">
@@ -57,14 +57,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mtx-2p-0ff" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="302.89855072463769" y="1291.7410714285713"/>
+            <point key="canvasLocation" x="541" y="1381"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="t4L-ed-e5d">
             <objects>
                 <viewController storyboardIdentifier="NoticeVC" id="IgC-hY-eB3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DGO-Dc-O1k">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="알림창" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3b-A3-Pfi">
@@ -82,18 +82,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K4w-vl-0Cg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="939.13043478260875" y="1291.7410714285713"/>
+            <point key="canvasLocation" x="1296" y="1381"/>
         </scene>
         <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Danggen_market_study" customModuleProvider="target" propertyAccessControl="none" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="iAa-fs-zLT">
-                                <rect key="frame" x="0.0" y="56" width="414" height="757"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="124" id="5Su-1B-5hB" customClass="CustomTableViewCell" customModule="Danggen_market_study" customModuleProvider="target">
@@ -173,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-600" y="628.79464285714278"/>
+            <point key="canvasLocation" x="-364" y="651"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Rbv-gf-j4e">
@@ -223,7 +223,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6wP-lP-Aj7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1106" y="629"/>
+            <point key="canvasLocation" x="349" y="-96"/>
         </scene>
         <!--내 근처-->
         <scene sceneID="z1N-yv-7Sa">
@@ -250,7 +250,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WtJ-K9-h6F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2026" y="629"/>
+            <point key="canvasLocation" x="1006" y="-96"/>
         </scene>
         <!--채팅-->
         <scene sceneID="EoG-TB-Hye">
@@ -277,7 +277,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="89w-QJ-YNH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2810" y="629"/>
+            <point key="canvasLocation" x="1662" y="-96"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="55d-TV-YQc">
@@ -346,7 +346,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c3b-mR-aKC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1992.753623188406" y="-834.375"/>
+            <point key="canvasLocation" x="-600" y="-1524"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="zHc-3d-K0u">
@@ -384,6 +384,10 @@
                                 <rect key="frame" x="171" y="474" width="73" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="회원가입"/>
+                                <connections>
+                                    <action selector="sighUpBTN:" destination="41b-13-A5L" eventType="touchUpInside" id="IyG-JB-QTv"/>
+                                    <segue destination="8Bm-Hv-Pai" kind="showDetail" identifier="goMain2" id="grS-kT-wwS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="e4W-6M-lZt"/>
@@ -417,7 +421,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FE6-9N-vL1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2782.608695652174" y="-834.375"/>
+            <point key="canvasLocation" x="183" y="-1524"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="SOy-x8-VRb">
@@ -464,7 +468,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Register"/>
                                 <connections>
                                     <action selector="registerPressed:" destination="QkI-Ol-wf1" eventType="touchUpInside" id="nuR-Ex-NJ8"/>
-                                    <segue destination="8Bm-Hv-Pai" kind="show" id="Y1y-87-oKb"/>
+                                    <segue destination="8Bm-Hv-Pai" kind="show" identifier="goMain" id="Y1y-87-oKb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -478,7 +482,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HdC-Y2-eCH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3528" y="-834"/>
+            <point key="canvasLocation" x="-568" y="-834"/>
         </scene>
         <!--나의 당근-->
         <scene sceneID="8J4-hf-Ftc">
@@ -505,7 +509,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OgK-46-AcT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3600" y="629"/>
+            <point key="canvasLocation" x="2320" y="-96"/>
         </scene>
         <!--홈-->
         <scene sceneID="AMj-ZH-kHW">
@@ -516,7 +520,7 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="INH-vq-5MQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -544,7 +548,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kyJ-vL-KEa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1082.608695652174" y="-834.375"/>
+            <point key="canvasLocation" x="-1451" y="-1524"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WxD-vg-k5H">
@@ -553,7 +557,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="tzE-Z3-77t"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="e5c-UZ-tfb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -563,9 +567,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0QN-WU-f19" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1265.217391304348" y="1291.7410714285713"/>
+            <point key="canvasLocation" x="-1039" y="1381"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="grS-kT-wwS"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="antenna.radiowaves.left.and.right.circle" catalog="system" width="128" height="121"/>
         <image name="appstore" width="614" height="828"/>

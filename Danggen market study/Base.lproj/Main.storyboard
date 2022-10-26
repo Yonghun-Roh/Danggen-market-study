@@ -14,7 +14,7 @@
             <objects>
                 <viewController storyboardIdentifier="SearchVC" id="XEz-ai-tWN" customClass="SearchViewController" customModule="Danggen_market_study" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yK8-bM-VRk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="검색창" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeB-CA-hQG">
@@ -39,7 +39,7 @@
             <objects>
                 <viewController storyboardIdentifier="MenuVC" id="nGw-BA-PQs" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UtN-jV-XY3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="메뉴창" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glq-f2-ZjB">
@@ -64,7 +64,7 @@
             <objects>
                 <viewController storyboardIdentifier="NoticeVC" id="IgC-hY-eB3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DGO-Dc-O1k">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="알림창" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3b-A3-Pfi">
@@ -89,11 +89,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Danggen_market_study" customModuleProvider="target" propertyAccessControl="none" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="iAa-fs-zLT">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <rect key="frame" x="0.0" y="56" width="414" height="757"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="124" id="5Su-1B-5hB" customClass="CustomTableViewCell" customModule="Danggen_market_study" customModuleProvider="target">
@@ -284,7 +284,7 @@
             <objects>
                 <viewController id="pNi-Te-b3e" customClass="MainViewController" customModule="Danggen_market_study" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zSV-rA-8EV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appstore" translatesAutoresizingMaskIntoConstraints="NO" id="aqH-LJ-TsT">
@@ -316,7 +316,7 @@
                                     <color key="baseBackgroundColor" red="0.93725490199999995" green="0.56583803889999995" blue="0.30181527139999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="41b-13-A5L" kind="show" identifier="SignUp" id="QPm-lO-rs4"/>
+                                    <segue destination="41b-13-A5L" kind="show" id="pHi-bN-OUO"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이미 계정이 있나요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sW2-2V-yXv">
@@ -351,37 +351,45 @@
         <!--Sign Up View Controller-->
         <scene sceneID="zHc-3d-K0u">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FE6-9N-vL1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController modalPresentationStyle="fullScreen" id="41b-13-A5L" customClass="SignUpViewController" customModule="Danggen_market_study" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4ko-B2-Sqf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOr-zc-T4y">
-                                <rect key="frame" x="20" y="88" width="330" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOr-zc-T4y">
+                                <rect key="frame" x="20" y="121" width="330" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">안녕하세요 
 이메일 주소로 가입해주세요.</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이메일 주소는 안전하게 보관되며 이웃들에게 공개되지 않아요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBv-US-qVx">
-                                <rect key="frame" x="20" y="156" width="342" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이메일 주소는 안전하게 보관되며 이웃들에게 공개되지 않아요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBv-US-qVx">
+                                <rect key="frame" x="20" y="189" width="342" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LvB-IH-RwZ">
-                                <rect key="frame" x="20" y="249" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LvB-IH-RwZ">
+                                <rect key="frame" x="20" y="282" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Up8-Oo-vAc">
-                                <rect key="frame" x="20" y="307" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Up8-Oo-vAc">
+                                <rect key="frame" x="20" y="340" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZI-R4-xCc">
-                                <rect key="frame" x="171" y="474" width="73" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZI-R4-xCc">
+                                <rect key="frame" x="93" y="465" width="228" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.56583803889999995" blue="0.30181527139999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="회원가입"/>
                                 <connections>
@@ -392,36 +400,15 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="e4W-6M-lZt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="eOr-zc-T4y" firstAttribute="top" secondItem="e4W-6M-lZt" secondAttribute="top" id="2GK-xp-CAr"/>
-                            <constraint firstItem="LvB-IH-RwZ" firstAttribute="leading" secondItem="ZBv-US-qVx" secondAttribute="leading" id="3in-1B-whh"/>
-                            <constraint firstItem="e4W-6M-lZt" firstAttribute="trailing" secondItem="LvB-IH-RwZ" secondAttribute="trailing" constant="20" id="4kn-hG-JBD"/>
-                            <constraint firstItem="eOr-zc-T4y" firstAttribute="leading" secondItem="e4W-6M-lZt" secondAttribute="leading" constant="20" id="6fF-fp-esO"/>
-                            <constraint firstItem="ZBv-US-qVx" firstAttribute="top" secondItem="e4W-6M-lZt" secondAttribute="top" constant="68" id="CvB-xP-h07"/>
-                            <constraint firstItem="Up8-Oo-vAc" firstAttribute="top" secondItem="LvB-IH-RwZ" secondAttribute="bottom" constant="24" id="HVB-cC-8Xi"/>
-                            <constraint firstItem="LvB-IH-RwZ" firstAttribute="top" secondItem="e4W-6M-lZt" secondAttribute="top" constant="161" id="JGj-Th-VrC"/>
-                            <constraint firstItem="e4W-6M-lZt" firstAttribute="trailing" secondItem="Up8-Oo-vAc" secondAttribute="trailing" constant="20" id="MyG-Tx-bgH"/>
-                            <constraint firstItem="ZBv-US-qVx" firstAttribute="leading" secondItem="eOr-zc-T4y" secondAttribute="leading" id="Pde-2v-gMU"/>
-                            <constraint firstItem="Up8-Oo-vAc" firstAttribute="leading" secondItem="LvB-IH-RwZ" secondAttribute="leading" id="TLk-Xr-fnl"/>
-                            <constraint firstItem="e4W-6M-lZt" firstAttribute="trailing" secondItem="eOr-zc-T4y" secondAttribute="trailing" constant="64" id="Uot-Cq-PFt"/>
-                            <constraint firstItem="e4W-6M-lZt" firstAttribute="trailing" secondItem="ZBv-US-qVx" secondAttribute="trailing" constant="52" id="VXz-aU-Ohn"/>
-                            <constraint firstItem="VZI-R4-xCc" firstAttribute="top" secondItem="e4W-6M-lZt" secondAttribute="top" constant="386" id="ZY0-W0-25V"/>
-                            <constraint firstItem="ZBv-US-qVx" firstAttribute="top" secondItem="eOr-zc-T4y" secondAttribute="bottom" constant="8" symbolic="YES" id="cFU-Bq-oBR"/>
-                            <constraint firstItem="e4W-6M-lZt" firstAttribute="trailing" secondItem="VZI-R4-xCc" secondAttribute="trailing" constant="170" id="h80-o7-TMT"/>
-                            <constraint firstItem="e4W-6M-lZt" firstAttribute="bottom" secondItem="VZI-R4-xCc" secondAttribute="bottom" constant="357" id="p1n-ij-bQZ"/>
-                            <constraint firstItem="e4W-6M-lZt" firstAttribute="bottom" secondItem="ZBv-US-qVx" secondAttribute="bottom" constant="667" id="rJX-0s-om4"/>
-                            <constraint firstItem="e4W-6M-lZt" firstAttribute="bottom" secondItem="Up8-Oo-vAc" secondAttribute="bottom" constant="521" id="sIj-6n-aQC"/>
-                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="s7Y-Sx-Ms9"/>
+                    <navigationItem key="navigationItem" id="puF-xb-AsO"/>
                     <connections>
                         <outlet property="emailTextField" destination="LvB-IH-RwZ" id="4rJ-DR-2c6"/>
                         <outlet property="passwordTextField" destination="Up8-Oo-vAc" id="vZt-3t-nbV"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FE6-9N-vL1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="183" y="-1524"/>
+            <point key="canvasLocation" x="182.60869565217394" y="-1524.1071428571429"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="SOy-x8-VRb">
@@ -462,10 +449,12 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WeR-rz-9tm">
-                                <rect key="frame" x="103" y="381" width="209" height="31"/>
+                                <rect key="frame" x="103" y="384" width="209" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.56583803889999995" blue="0.30181527139999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Register"/>
+                                <buttonConfiguration key="configuration" style="plain" title="로그인"/>
                                 <connections>
                                     <action selector="registerPressed:" destination="QkI-Ol-wf1" eventType="touchUpInside" id="nuR-Ex-NJ8"/>
                                     <segue destination="8Bm-Hv-Pai" kind="show" identifier="goMain" id="Y1y-87-oKb"/>
@@ -492,13 +481,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="나의 당근" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhG-Yg-tU5">
-                                <rect key="frame" x="62" y="348" width="290" height="73"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4lv-ll-WAD">
+                                <rect key="frame" x="17" y="104" width="104" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="로그아웃">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                    <color key="baseForegroundColor" red="0.1605978012" green="0.16424998639999999" blue="0.1891754866" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="pNi-Te-b3e" kind="presentation" id="wMw-Ob-Su5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uSd-IH-yNQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -509,7 +503,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OgK-46-AcT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2320" y="-96"/>
+            <point key="canvasLocation" x="2318.840579710145" y="-96.428571428571431"/>
         </scene>
         <!--홈-->
         <scene sceneID="AMj-ZH-kHW">
@@ -520,7 +514,7 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="INH-vq-5MQ">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -557,7 +551,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="tzE-Z3-77t"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="e5c-UZ-tfb">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -571,7 +565,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="grS-kT-wwS"/>
+        <segue reference="wMw-Ob-Su5"/>
+        <segue reference="Y1y-87-oKb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="antenna.radiowaves.left.and.right.circle" catalog="system" width="128" height="121"/>

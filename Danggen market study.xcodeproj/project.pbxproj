@@ -28,6 +28,8 @@
 		93F57E99290925DC00555F2D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 93F57E98290925DC00555F2D /* FirebaseAuth */; };
 		93F57E9B290925DC00555F2D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 93F57E9A290925DC00555F2D /* FirebaseDatabase */; };
 		93F57E9D290925DC00555F2D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 93F57E9C290925DC00555F2D /* FirebaseFirestore */; };
+		93F57E9F290941DE00555F2D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F57E9E290941DE00555F2D /* Message.swift */; };
+		93F57EA12909613700555F2D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F57EA02909613700555F2D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		93B21FFA28D4706000B8EDC3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		93F56CE628DBF17300938C09 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		93F57E9E290941DE00555F2D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		93F57EA02909613700555F2D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 				934946CE28D1D40F007E0CC4 /* SceneDelegate.swift */,
 				934946D028D1D40F007E0CC4 /* ViewController.swift */,
 				934946D228D1D40F007E0CC4 /* Main.storyboard */,
+				93F57E9E290941DE00555F2D /* Message.swift */,
 				93321D8728FFE31B006B403E /* SignUp.swift */,
 				93F56CE628DBF17300938C09 /* Table.swift */,
 				934946F128D2E9B3007E0CC4 /* MyDanggen.swift */,
@@ -105,6 +110,7 @@
 				934946DA28D1D411007E0CC4 /* Info.plist */,
 				93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */,
 				9360C25628DC226A00336507 /* CustomTableViewCell.swift */,
+				93F57EA02909613700555F2D /* Constants.swift */,
 			);
 			path = "Danggen market study";
 			sourceTree = "<group>";
@@ -195,6 +201,7 @@
 				9360C25728DC226A00336507 /* CustomTableViewCell.swift in Sources */,
 				93B21FF928D4703000B8EDC3 /* Main.swift in Sources */,
 				934946CD28D1D40F007E0CC4 /* AppDelegate.swift in Sources */,
+				93F57EA12909613700555F2D /* Constants.swift in Sources */,
 				934946EE28D2E8B3007E0CC4 /* Myaround.swift in Sources */,
 				934946EC28D2E76C007E0CC4 /* Dongne.swift in Sources */,
 				93F56CE728DBF17300938C09 /* Table.swift in Sources */,
@@ -203,6 +210,7 @@
 				934946CF28D1D40F007E0CC4 /* SceneDelegate.swift in Sources */,
 				93321D8828FFE31B006B403E /* SignUp.swift in Sources */,
 				934946F228D2E9B3007E0CC4 /* MyDanggen.swift in Sources */,
+				93F57E9F290941DE00555F2D /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

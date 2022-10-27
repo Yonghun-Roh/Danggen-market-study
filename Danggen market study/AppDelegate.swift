@@ -7,11 +7,9 @@
 
 import UIKit
 import Firebase
-import FirebaseCore
-import FirebaseFirestore
-import FirebaseAuth
-// ...
-      
+
+
+     
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,8 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         let db = Firestore.firestore()
-        
         print(db)
+        
+        
         
         return true
         

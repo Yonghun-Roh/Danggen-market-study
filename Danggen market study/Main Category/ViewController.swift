@@ -22,10 +22,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     let data: [Sunset] = [
-    Sunset(title: "Morining Run", imageName: "sunset1"),
-    Sunset(title: "Evening Sunset", imageName: "sunset2"),
-    Sunset(title: "Vacation Photos", imageName: "sunset3"),
-    Sunset(title: "Visiting Frieends", imageName: "sunset4"),
+    Sunset(title: "해가 뜨는 나라로 초대합니다.", imageName: "sunset1"),
+    Sunset(title: "레드와인과 와인잔 판매합니다. 100,000원", imageName: "sunset2"),
+    Sunset(title: "그림 판매. 고흐.", imageName: "sunset3"),
+    Sunset(title: "시원한 코로나 맥주 팝니다.", imageName: "sunset4"),
     Sunset(title: "Som Other Title", imageName: "sunset5")
     
     ]

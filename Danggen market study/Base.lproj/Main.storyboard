@@ -233,24 +233,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="내 근처" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZEo-sw-v5c">
-                                <rect key="frame" x="62" y="369" width="290" height="73"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="W51-yY-eza">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="666"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVk-9v-gKn">
+                                <rect key="frame" x="0.0" y="669" width="414" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Uo-AY-0hs">
+                                <rect key="frame" x="0.0" y="713" width="414" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="n2d-UQ-JoB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="n2d-UQ-JoB" firstAttribute="bottom" secondItem="W51-yY-eza" secondAttribute="bottom" constant="127" id="8sj-We-XCF"/>
+                            <constraint firstItem="W51-yY-eza" firstAttribute="top" secondItem="n2d-UQ-JoB" secondAttribute="top" id="aQ5-Md-JWX"/>
+                            <constraint firstItem="W51-yY-eza" firstAttribute="leading" secondItem="n2d-UQ-JoB" secondAttribute="leading" id="euL-YK-4vw"/>
+                            <constraint firstItem="W51-yY-eza" firstAttribute="trailing" secondItem="n2d-UQ-JoB" secondAttribute="trailing" id="nwP-e9-cIb"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="내 근처" image="antenna.radiowaves.left.and.right.circle" catalog="system" id="kU5-Fg-aPq">
                         <imageReference key="selectedImage" image="antenna.radiowaves.left.and.right.circle" catalog="system" symbolScale="large"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="lblLocationInfo1" destination="gVk-9v-gKn" id="545-lD-uk5"/>
+                        <outlet property="lblLocationInfo2" destination="8Uo-AY-0hs" id="bbC-AP-63F"/>
+                        <outlet property="myMap" destination="W51-yY-eza" id="nA4-l7-u3Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WtJ-K9-h6F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1006" y="-96"/>
+            <point key="canvasLocation" x="1005.7971014492755" y="-96.428571428571431"/>
         </scene>
         <!--채팅-->
         <scene sceneID="EoG-TB-Hye">

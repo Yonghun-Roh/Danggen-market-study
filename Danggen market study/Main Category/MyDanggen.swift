@@ -16,7 +16,7 @@ class MyDanggenViewController: UIViewController {
     }
     
     @IBAction func logOutPressed(_ sender: Any) {
-        
+        self.performSegue(withIdentifier: "GoToHome", sender: self)
         
         let firebaseAuth = Auth.auth()
     do {

@@ -21,6 +21,8 @@
 		934946F228D2E9B3007E0CC4 /* MyDanggen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946F128D2E9B3007E0CC4 /* MyDanggen.swift */; };
 		9360C25728DC226A00336507 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360C25628DC226A00336507 /* CustomTableViewCell.swift */; };
 		9360C25928DC536200336507 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360C25828DC536200336507 /* Search.swift */; };
+		938D2D26290A29E000F36F41 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938D2D24290A29E000F36F41 /* MessageCell.swift */; };
+		938D2D27290A29E000F36F41 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938D2D25290A29E000F36F41 /* MessageCell.xib */; };
 		93B21FF928D4703000B8EDC3 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B21FF828D4703000B8EDC3 /* Main.swift */; };
 		93B21FFB28D4706000B8EDC3 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B21FFA28D4706000B8EDC3 /* Login.swift */; };
 		93B21FFD28D47AA800B8EDC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */; };
@@ -49,6 +51,8 @@
 		934946F128D2E9B3007E0CC4 /* MyDanggen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDanggen.swift; sourceTree = "<group>"; };
 		9360C25628DC226A00336507 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		9360C25828DC536200336507 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		938D2D24290A29E000F36F41 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		938D2D25290A29E000F36F41 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		93B21FF828D4703000B8EDC3 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		93B21FFA28D4706000B8EDC3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -90,20 +94,15 @@
 		934946CB28D1D40F007E0CC4 /* Danggen market study */ = {
 			isa = PBXGroup;
 			children = (
+				938D2D29290A2D0700F36F41 /* Main Category */,
+				938D2D28290A2CC300F36F41 /* Login */,
 				934946CC28D1D40F007E0CC4 /* AppDelegate.swift */,
 				934946CE28D1D40F007E0CC4 /* SceneDelegate.swift */,
-				934946D028D1D40F007E0CC4 /* ViewController.swift */,
 				934946D228D1D40F007E0CC4 /* Main.storyboard */,
+				938D2D24290A29E000F36F41 /* MessageCell.swift */,
+				938D2D25290A29E000F36F41 /* MessageCell.xib */,
 				93F57E9E290941DE00555F2D /* Message.swift */,
-				93321D8728FFE31B006B403E /* SignUp.swift */,
 				93F56CE628DBF17300938C09 /* Table.swift */,
-				934946F128D2E9B3007E0CC4 /* MyDanggen.swift */,
-				93B21FF828D4703000B8EDC3 /* Main.swift */,
-				93B21FFA28D4706000B8EDC3 /* Login.swift */,
-				9360C25828DC536200336507 /* Search.swift */,
-				934946EF28D2E923007E0CC4 /* Chat.swift */,
-				934946ED28D2E8B3007E0CC4 /* Myaround.swift */,
-				934946EB28D2E76C007E0CC4 /* Dongne.swift */,
 				934946D528D1D411007E0CC4 /* Assets.xcassets */,
 				934946E228D1D95A007E0CC4 /* 당근마켓 아이콘.png */,
 				934946D728D1D411007E0CC4 /* LaunchScreen.storyboard */,
@@ -113,6 +112,37 @@
 				93F57EA02909613700555F2D /* Constants.swift */,
 			);
 			path = "Danggen market study";
+			sourceTree = "<group>";
+		};
+		938D2D28290A2CC300F36F41 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				93321D8728FFE31B006B403E /* SignUp.swift */,
+				93B21FFA28D4706000B8EDC3 /* Login.swift */,
+				93B21FF828D4703000B8EDC3 /* Main.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		938D2D29290A2D0700F36F41 /* Main Category */ = {
+			isa = PBXGroup;
+			children = (
+				934946F128D2E9B3007E0CC4 /* MyDanggen.swift */,
+				934946EF28D2E923007E0CC4 /* Chat.swift */,
+				934946ED28D2E8B3007E0CC4 /* Myaround.swift */,
+				934946EB28D2E76C007E0CC4 /* Dongne.swift */,
+				934946D028D1D40F007E0CC4 /* ViewController.swift */,
+				938D2D2B290A2DE800F36F41 /* Home Group */,
+			);
+			path = "Main Category";
+			sourceTree = "<group>";
+		};
+		938D2D2B290A2DE800F36F41 /* Home Group */ = {
+			isa = PBXGroup;
+			children = (
+				9360C25828DC536200336507 /* Search.swift */,
+			);
+			path = "Home Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				934946D928D1D411007E0CC4 /* LaunchScreen.storyboard in Resources */,
+				938D2D27290A29E000F36F41 /* MessageCell.xib in Resources */,
 				934946E328D1D95A007E0CC4 /* 당근마켓 아이콘.png in Resources */,
 				93B21FFD28D47AA800B8EDC3 /* GoogleService-Info.plist in Resources */,
 				934946D628D1D411007E0CC4 /* Assets.xcassets in Resources */,
@@ -197,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				934946D128D1D40F007E0CC4 /* ViewController.swift in Sources */,
+				938D2D26290A29E000F36F41 /* MessageCell.swift in Sources */,
 				934946F028D2E923007E0CC4 /* Chat.swift in Sources */,
 				9360C25728DC226A00336507 /* CustomTableViewCell.swift in Sources */,
 				93B21FF928D4703000B8EDC3 /* Main.swift in Sources */,

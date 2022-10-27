@@ -23,6 +23,9 @@
 		9360C25928DC536200336507 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360C25828DC536200336507 /* Search.swift */; };
 		938D2D26290A29E000F36F41 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938D2D24290A29E000F36F41 /* MessageCell.swift */; };
 		938D2D27290A29E000F36F41 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938D2D25290A29E000F36F41 /* MessageCell.xib */; };
+		93B01D71290AB1C5003117EA /* 아이폰충전잭.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B01D70290AB1C5003117EA /* 아이폰충전잭.png */; };
+		93B01D73290AB2B8003117EA /* 구형폰.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B01D72290AB2B8003117EA /* 구형폰.png */; };
+		93B01D75290AB311003117EA /* Mattress.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B01D74290AB311003117EA /* Mattress.png */; };
 		93B21FF928D4703000B8EDC3 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B21FF828D4703000B8EDC3 /* Main.swift */; };
 		93B21FFB28D4706000B8EDC3 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B21FFA28D4706000B8EDC3 /* Login.swift */; };
 		93B21FFD28D47AA800B8EDC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */; };
@@ -53,6 +56,9 @@
 		9360C25828DC536200336507 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		938D2D24290A29E000F36F41 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		938D2D25290A29E000F36F41 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		93B01D70290AB1C5003117EA /* 아이폰충전잭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "아이폰충전잭.png"; sourceTree = "<group>"; };
+		93B01D72290AB2B8003117EA /* 구형폰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "구형폰.png"; sourceTree = "<group>"; };
+		93B01D74290AB311003117EA /* Mattress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mattress.png; sourceTree = "<group>"; };
 		93B21FF828D4703000B8EDC3 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		93B21FFA28D4706000B8EDC3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -105,6 +111,9 @@
 				93F56CE628DBF17300938C09 /* Table.swift */,
 				934946D528D1D411007E0CC4 /* Assets.xcassets */,
 				934946E228D1D95A007E0CC4 /* 당근마켓 아이콘.png */,
+				93B01D74290AB311003117EA /* Mattress.png */,
+				93B01D70290AB1C5003117EA /* 아이폰충전잭.png */,
+				93B01D72290AB2B8003117EA /* 구형폰.png */,
 				934946D728D1D411007E0CC4 /* LaunchScreen.storyboard */,
 				934946DA28D1D411007E0CC4 /* Info.plist */,
 				93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */,
@@ -211,12 +220,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B01D71290AB1C5003117EA /* 아이폰충전잭.png in Resources */,
 				934946D928D1D411007E0CC4 /* LaunchScreen.storyboard in Resources */,
+				93B01D75290AB311003117EA /* Mattress.png in Resources */,
 				938D2D27290A29E000F36F41 /* MessageCell.xib in Resources */,
 				934946E328D1D95A007E0CC4 /* 당근마켓 아이콘.png in Resources */,
 				93B21FFD28D47AA800B8EDC3 /* GoogleService-Info.plist in Resources */,
 				934946D628D1D411007E0CC4 /* Assets.xcassets in Resources */,
 				934946D428D1D40F007E0CC4 /* Main.storyboard in Resources */,
+				93B01D73290AB2B8003117EA /* 구형폰.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

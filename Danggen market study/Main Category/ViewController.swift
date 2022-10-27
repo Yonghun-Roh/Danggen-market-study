@@ -26,8 +26,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     Sunset(title: "레드와인과 와인잔 판매합니다. 100,000원", imageName: "sunset2"),
     Sunset(title: "그림 판매. 고흐.", imageName: "sunset3"),
     Sunset(title: "시원한 코로나 맥주 팝니다.", imageName: "sunset4"),
-    Sunset(title: "Som Other Title", imageName: "sunset5")
-    
+    Sunset(title: "아이플충전잭 팝니다", imageName: "아이폰충전잭"),
+    Sunset(title: "구형폰 팝니다", imageName: "구형폰"),
+    Sunset(title: "메트리스 튼튼합니다", imageName: "Mattress")
     ]
     
    
